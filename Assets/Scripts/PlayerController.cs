@@ -12,13 +12,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float moveSpeed = 5.0f;
     [SerializeField] private float runSpeed = 7.0f;
     [SerializeField] private float jumpForce = 3.0f;
-    [SerializeField] private float lookSensitivity = 2.0f;
-    [SerializeField] private float maxLookX = 60.0f;
-    [SerializeField] private float minLookX = -60.0f;
+    [SerializeField] private float lookSensitivity = 1.0f;
+    [SerializeField] private float maxLookX = 30.0f;
+    [SerializeField] private float minLookX = -30.0f;
 
     [SerializeField] private Camera playerCamera;
     [SerializeField] private Vector3 thirdPersonCameraOffset = new Vector3(0, 2, -4);
-    [SerializeField] private Vector3 firstPersonCameraOffset = new Vector3(0.5f, 1.5f, 0);
+    [SerializeField] private Vector3 firstPersonCameraOffset = new Vector3(0, 1.5f, 0.5f);
 
     private float currentSpeed;
     private float rotX;
@@ -72,7 +72,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // 카메라의 로컬 좌표계를 기준으로 방향을 변환
-        Vector3 moveDirection = playerCamera.transform.TransformDirection(direction);
+        Vector3 moveDirection = transform.TransformDirection(direction);
         moveDirection.y = 0; // y축 방향을 0으로 고정하여 캐릭터가 수직으로 움직이지 않도록 함
         moveDirection.Normalize(); // 이동 벡터를 정규화하여 일정한 속도를 유지
 
@@ -86,12 +86,6 @@ public class PlayerController : MonoBehaviour
         _animator.SetBool(Move, isMove);
         _animator.SetFloat(DirX, _dirX);
         _animator.SetFloat(DirZ, _dirZ);
-
-        // 플레이어의 회전을 이동 방향으로만 설정
-        if (moveDirection != Vector3.zero)
-        {
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(moveDirection), 0.15f);
-        }
     }
 
     private void TryRun()
@@ -143,12 +137,6 @@ public class PlayerController : MonoBehaviour
 
         playerCamera.transform.localRotation = Quaternion.Euler(rotX, 0, 0);
         transform.rotation = Quaternion.Euler(0, transform.rotation.eulerAngles.y + mouseX, 0);
-
-        if (isFirstPerson)
-        {
-            // 1인칭 시점에서는 캐릭터 회전을 카메라 회전에 맞추지 않음
-            playerCamera.transform.localRotation = Quaternion.Euler(rotX, playerCamera.transform.localRotation.eulerAngles.y + mouseX, 0);
-        }
     }
 
     private void SwitchView()
@@ -169,14 +157,12 @@ public class PlayerController : MonoBehaviour
 
     private void SetFirstPersonView()
     {
-        playerCamera.transform.SetParent(transform);
         playerCamera.transform.localPosition = firstPersonCameraOffset;
         playerCamera.transform.localRotation = Quaternion.identity;
     }
 
     private void SetThirdPersonView()
     {
-        playerCamera.transform.SetParent(transform);
         playerCamera.transform.localPosition = thirdPersonCameraOffset;
         playerCamera.transform.localRotation = Quaternion.identity;
     }

@@ -218,7 +218,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697299029052259823}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.37473437, z: -0, w: 0.92713225}
+  m_LocalRotation: {x: 0, y: -0.374736, z: 0, w: 0.9271316}
   m_LocalPosition: {x: 19.584, y: 0.2, z: 32.564}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -312,7 +312,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpForce: 5
+  runSpeed: 7
+  jumpForce: 3
+  lookSensitivity: 1
+  maxLookX: 30
+  minLookX: -30
+  playerCamera: {fileID: 651343659819062801}
+  thirdPersonCameraOffset: {x: 0, y: 2, z: -4}
+  firstPersonCameraOffset: {x: 0, y: 1.5, z: 0.5}
 --- !u!1 &702522917945206077
 GameObject:
   m_ObjectHideFlags: 0
@@ -1649,7 +1656,7 @@ Transform:
   m_GameObject: {fileID: 6560383549317061839}
   serializedVersion: 2
   m_LocalRotation: {x: 0.19983715, y: -0.00000008940697, z: 0.000000022351742, w: 0.9798292}
-  m_LocalPosition: {x: -0.088, y: 3.828, z: -3.645}
+  m_LocalPosition: {x: -0.088, y: 3.298, z: -3.201}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

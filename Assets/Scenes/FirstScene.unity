@@ -382,11 +382,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!20 &1161316610 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 651343659819062801, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
-  m_PrefabInstance: {fileID: 9182271618242293387}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1302150549
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -751,34 +746,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player1
       objectReference: {fileID: 0}
-    - target: {fileID: 4512645910628364374, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
-      propertyPath: maxLookX
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 4512645910628364374, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
-      propertyPath: minLookX
-      value: -30
-      objectReference: {fileID: 0}
-    - target: {fileID: 4512645910628364374, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
-      propertyPath: runSpeed
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4512645910628364374, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
-      propertyPath: jumpForce
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4512645910628364374, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
-      propertyPath: playerCamera
-      value: 
-      objectReference: {fileID: 1161316610}
-    - target: {fileID: 4512645910628364374, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
-      propertyPath: lookSensitivity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4512645910628364374, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
-      propertyPath: firstPersonCameraOffset.x
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 5783801092357935878, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.71
@@ -818,14 +785,6 @@ PrefabInstance:
     - target: {fileID: 5783801092357935878, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6627300886296385903, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.298
-      objectReference: {fileID: 0}
-    - target: {fileID: 6627300886296385903, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3.201
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
