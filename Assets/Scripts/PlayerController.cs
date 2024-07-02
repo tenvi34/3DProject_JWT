@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody _rigidbody;
     private CapsuleCollider _collider;
 
+    // Inspector 설정
     [SerializeField] private float moveSpeed = 5.0f;
     [SerializeField] private float runSpeed = 7.0f;
     [SerializeField] private float jumpForce = 3.0f;
@@ -35,7 +36,7 @@ public class PlayerController : MonoBehaviour
     private static readonly int Jump = Animator.StringToHash("Jump");
     private static readonly int Run = Animator.StringToHash("Run");
 
-    void Start()
+    void Awake()
     {
         _animator = GetComponent<Animator>();
         _rigidbody = GetComponent<Rigidbody>();
@@ -49,17 +50,20 @@ public class PlayerController : MonoBehaviour
         }
 
         SetThirdPersonView();
+        
+        _rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
     }
 
     void Update()
     {
-        TryWalk();
-        TryRun();
-        TryJump();
-        LookAround();
-        SwitchView();
+        TryWalk(); // 걷기
+        TryRun(); // 달리기
+        TryJump(); // 점프
+        LookAround(); // 마우스 화면 회전
+        SwitchView(); // 시점 변환
     }
 
+    // 걷기
     private void TryWalk()
     {
         float _dirX = Input.GetAxis("Horizontal");
@@ -88,6 +92,7 @@ public class PlayerController : MonoBehaviour
         _animator.SetFloat(DirZ, _dirZ);
     }
 
+    // 달리기
     private void TryRun()
     {
         if (Input.GetKey(KeyCode.LeftShift))
@@ -104,6 +109,7 @@ public class PlayerController : MonoBehaviour
         _animator.SetBool(Run, isRun);
     }
 
+    // 점프
     private void TryJump()
     {
         // 착지 확인
@@ -127,6 +133,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    // 마우스 화면 회전
     private void LookAround()
     {
         float mouseX = Input.GetAxis("Mouse X") * lookSensitivity;
@@ -139,6 +146,7 @@ public class PlayerController : MonoBehaviour
         transform.rotation = Quaternion.Euler(0, transform.rotation.eulerAngles.y + mouseX, 0);
     }
 
+    // 시점 변환
     private void SwitchView()
     {
         if (Input.GetKeyDown(KeyCode.V))
@@ -146,21 +154,23 @@ public class PlayerController : MonoBehaviour
             isFirstPerson = !isFirstPerson;
             if (isFirstPerson)
             {
-                SetFirstPersonView();
+                SetFirstPersonView(); // 1인칭
             }
             else
             {
-                SetThirdPersonView();
+                SetThirdPersonView(); // 3인칭
             }
         }
     }
 
+    // 1인칭
     private void SetFirstPersonView()
     {
         playerCamera.transform.localPosition = firstPersonCameraOffset;
         playerCamera.transform.localRotation = Quaternion.identity;
     }
 
+    // 3인칭
     private void SetThirdPersonView()
     {
         playerCamera.transform.localPosition = thirdPersonCameraOffset;
