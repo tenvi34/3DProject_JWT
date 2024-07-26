@@ -64,14 +64,9 @@ public class PlayerController : MonoBehaviour
         LookAround(); // 마우스 화면 회전
         SwitchView(); // 시점 변환
         TryAttack(); // 공격
-        ChangeWeaponIdle();
+        ChangeWeaponIdle(); // 무기 든 상태에서의 Idle로 변경
     }
-
-    private void ChangeWeaponIdle()
-    {
-        _animator.SetBool(HasWeapon, WeaponManager.Instance.CurrentWeapon != null);
-    }
-
+    
     // 걷기
     private void TryWalk()
     {
@@ -193,5 +188,11 @@ public class PlayerController : MonoBehaviour
         {
             _animator.SetTrigger(Attack);
         }
+    }
+    
+    // 무기 든 상태에서의 Idle로 변경
+    private void ChangeWeaponIdle()
+    {
+        _animator.SetBool(HasWeapon, WeaponManager.Instance.CurrentWeapon != null);
     }
 }
