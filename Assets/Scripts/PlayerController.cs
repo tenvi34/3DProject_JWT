@@ -36,6 +36,7 @@ public class PlayerController : MonoBehaviour
     private static readonly int Jump = Animator.StringToHash("Jump");
     private static readonly int Run = Animator.StringToHash("Run");
     private static readonly int Attack = Animator.StringToHash("Attack");
+    private static readonly int HasWeapon = Animator.StringToHash("EquipWeapon");
 
     void Awake()
     {
@@ -63,6 +64,12 @@ public class PlayerController : MonoBehaviour
         LookAround(); // 마우스 화면 회전
         SwitchView(); // 시점 변환
         TryAttack(); // 공격
+        ChangeWeaponIdle();
+    }
+
+    private void ChangeWeaponIdle()
+    {
+        _animator.SetBool(HasWeapon, WeaponManager.Instance.CurrentWeapon != null);
     }
 
     // 걷기

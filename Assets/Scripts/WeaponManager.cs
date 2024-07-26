@@ -9,6 +9,11 @@ public class WeaponManager : MonoBehaviour
 
     private GameObject _currentWeapon; // 현재 장착중인 무기
     private Transform _weaponSlot; // 장착하는 무기 슬롯 (오른손)
+    
+    public GameObject CurrentWeapon => _currentWeapon;
+
+    private Animator _animator; // 애니메이터
+    private static readonly int HasWeapon = Animator.StringToHash("EquipWeapon");
 
     void Awake()
     {
@@ -27,6 +32,7 @@ public class WeaponManager : MonoBehaviour
     {
         // 오른손에 장착할 WeaponSlot 찾기
         _weaponSlot = transform.Find("root/root.x/spine_01.x/spine_02.x/spine_03.x/shoulder.r/arm_stretch.r/forearm_stretch.r/hand.r/WeaponSlot");
+        _animator = GetComponent<Animator>();
         
         if (_weaponSlot == null)
         {
@@ -75,11 +81,36 @@ public class WeaponManager : MonoBehaviour
                 weaponCollider.enabled = false;
             }
 
+            if (_animator != null)
+            {
+                _animator.SetBool(HasWeapon, true);
+            }
+
             Debug.Log("무기가 성공적으로 장착되었습니다.");
         }
         else
         {
             Debug.LogError("'WeaponSlot' 오브젝트를 찾을 수 없습니다.");
+        }
+    }
+
+    public void UnequipWeapon()
+    {
+        if (_currentWeapon != null)
+        {
+            Destroy(_currentWeapon);
+            _currentWeapon = null;
+
+            if (_animator != null)
+            {
+                _animator.SetBool(HasWeapon, false);
+            }
+            
+            Debug.Log("무기 해제 완료");
+        }
+        else
+        {
+            Debug.Log("장착중인 무기가 없습니다.");
         }
     }
 }
