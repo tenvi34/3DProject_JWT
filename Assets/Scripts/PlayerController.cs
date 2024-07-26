@@ -35,6 +35,7 @@ public class PlayerController : MonoBehaviour
     private static readonly int DirZ = Animator.StringToHash("DirZ");
     private static readonly int Jump = Animator.StringToHash("Jump");
     private static readonly int Run = Animator.StringToHash("Run");
+    private static readonly int Attack = Animator.StringToHash("Attack");
 
     void Awake()
     {
@@ -61,6 +62,7 @@ public class PlayerController : MonoBehaviour
         TryJump(); // 점프
         LookAround(); // 마우스 화면 회전
         SwitchView(); // 시점 변환
+        TryAttack(); // 공격
     }
 
     // 걷기
@@ -175,5 +177,14 @@ public class PlayerController : MonoBehaviour
     {
         playerCamera.transform.localPosition = thirdPersonCameraOffset;
         playerCamera.transform.localRotation = Quaternion.identity;
+    }
+
+    // 공격
+    private void TryAttack()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            _animator.SetTrigger(Attack);
+        }
     }
 }
