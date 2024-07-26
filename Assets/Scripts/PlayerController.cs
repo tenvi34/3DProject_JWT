@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
     private bool isJump;
     private bool isRun;
     private bool isFirstPerson = false;
+    private bool isAttack = false;
 
     // 애니메이터 캐싱
     private static readonly int Move = Animator.StringToHash("Move");
@@ -184,10 +185,16 @@ public class PlayerController : MonoBehaviour
     // 공격
     private void TryAttack()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !isAttack)
         {
             _animator.SetTrigger(Attack);
+            isAttack = true;
         }
+    }
+
+    public void AttackFinish()
+    {
+        isAttack = false;
     }
     
     // 무기 든 상태에서의 Idle로 변경

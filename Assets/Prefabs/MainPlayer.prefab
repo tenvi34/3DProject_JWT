@@ -315,9 +315,9 @@ MonoBehaviour:
   moveSpeed: 5
   runSpeed: 7
   jumpForce: 3
-  lookSensitivity: 1
-  maxLookX: 30
-  minLookX: -30
+  lookSensitivity: 0.7
+  maxLookX: 15
+  minLookX: -15
   playerCamera: {fileID: 651343659819062801}
   thirdPersonCameraOffset: {x: 0, y: 2, z: -4}
   firstPersonCameraOffset: {x: 0, y: 1.5, z: 0.5}
