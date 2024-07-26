@@ -8,7 +8,7 @@ public class WeaponManager : MonoBehaviour
     public static WeaponManager Instance { get; private set; }
 
     private GameObject _currentWeapon; // 현재 장착중인 무기
-    private Transform _weaponSlot; // 장착하는 오른손
+    private Transform _weaponSlot; // 장착하는 무기 슬롯 (오른손)
 
     void Awake()
     {
@@ -25,7 +25,7 @@ public class WeaponManager : MonoBehaviour
 
     void Start()
     {
-        // 오른손 위치 찾기
+        // 오른손에 장착할 WeaponSlot 찾기
         _weaponSlot = transform.Find("root/root.x/spine_01.x/spine_02.x/spine_03.x/shoulder.r/arm_stretch.r/forearm_stretch.r/hand.r/WeaponSlot");
         
         if (_weaponSlot == null)
@@ -57,8 +57,8 @@ public class WeaponManager : MonoBehaviour
             _currentWeapon.transform.localRotation = Quaternion.identity;
 
             // 위치와 회전 조정 (필요에 따라 수정 가능)
-            _currentWeapon.transform.localPosition = new Vector3(0.1f, 0, 0);
-            _currentWeapon.transform.localRotation = Quaternion.Euler(-180, -30, -90);
+            _currentWeapon.transform.localPosition = new Vector3(0, 0.15f, 0);
+            _currentWeapon.transform.localRotation = Quaternion.Euler(-180, -30, -100);
 
             // Rigidbody 설정
             Rigidbody weaponRb = _currentWeapon.GetComponent<Rigidbody>();
