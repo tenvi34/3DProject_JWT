@@ -16,7 +16,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float lookSensitivity = 1.0f;
     [SerializeField] private float maxLookX = 30.0f;
     [SerializeField] private float minLookX = -30.0f;
-
     [SerializeField] private Camera playerCamera;
     [SerializeField] private Vector3 thirdPersonCameraOffset = new Vector3(0, 2, -4);
     [SerializeField] private Vector3 firstPersonCameraOffset = new Vector3(0, 1.5f, 0.5f);
@@ -24,6 +23,7 @@ public class PlayerController : MonoBehaviour
     private float currentSpeed;
     private float rotX;
 
+    // 동작 체크
     private bool isMove;
     private bool isJump;
     private bool isRun;
