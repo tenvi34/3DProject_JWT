@@ -39,11 +39,15 @@ public class PlayerController : MonoBehaviour
     private static readonly int Attack = Animator.StringToHash("Attack");
     private static readonly int HasWeapon = Animator.StringToHash("EquipWeapon");
 
+    // HP System
+    private HealthSystem _healthSystem;
+
     void Awake()
     {
         _animator = GetComponent<Animator>();
         _rigidbody = GetComponent<Rigidbody>();
         _collider = GetComponent<CapsuleCollider>();
+        _healthSystem = GetComponent<HealthSystem>();
         currentSpeed = moveSpeed;
         Cursor.lockState = CursorLockMode.Locked;
 
@@ -53,12 +57,13 @@ public class PlayerController : MonoBehaviour
         }
 
         SetThirdPersonView();
-        
+
         _rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
     }
 
     void Update()
     {
+        if (_healthSystem.CurrentHp <= 0) return;
         TryWalk(); // 걷기
         TryRun(); // 달리기
         TryJump(); // 점프
@@ -67,7 +72,7 @@ public class PlayerController : MonoBehaviour
         TryAttack(); // 공격
         ChangeWeaponIdle(); // 무기 든 상태에서의 Idle로 변경
     }
-    
+
     // 걷기
     private void TryWalk()
     {
@@ -128,6 +133,7 @@ public class PlayerController : MonoBehaviour
             }
 
         }
+
         // 점프
         if (Input.GetKeyDown(KeyCode.Space) && !isJump)
         {
@@ -196,7 +202,7 @@ public class PlayerController : MonoBehaviour
     {
         isAttack = false;
     }
-    
+
     // 무기 든 상태에서의 Idle로 변경
     private void ChangeWeaponIdle()
     {
