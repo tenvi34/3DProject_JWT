@@ -3492,7 +3492,7 @@ PrefabInstance:
     - target: {fileID: 2550935751187727211, guid: 9fc0192e92a7bae4c8afab4a3c3a7633, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: fad8dee88e0ba214db7a97335e17c099, type: 2}
+      objectReference: {fileID: 9100000, guid: 5ec22928ba649c34481d1df4d4014f7c, type: 2}
     - target: {fileID: 8468617057500289297, guid: 9fc0192e92a7bae4c8afab4a3c3a7633, type: 3}
       propertyPath: m_LocalPosition.x
       value: 63.5323
@@ -12886,7 +12886,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1551903387342588766, guid: 3a924bc88a471464599e53a5cb3630c0, type: 3}
       propertyPath: m_Name
-      value: Giant01_Flat - Golem_Flat
+      value: Golem_Flat
       objectReference: {fileID: 0}
     - target: {fileID: 2216517877303316964, guid: 3a924bc88a471464599e53a5cb3630c0, type: 3}
       propertyPath: m_LocalPosition.x
