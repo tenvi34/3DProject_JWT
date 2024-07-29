@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cf255445be4788e45a747fc3177b1bf5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215414
+  packageName: Giant Animations
+  packageVersion: 1.1
+  assetPath: Assets/Kevin Iglesias/Giant Animations/AnimatorControllers/Giant@Jump.controller
+  uploadId: 644586

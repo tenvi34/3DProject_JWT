@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c99b4f6afa4cb3a489307a3957241651
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215414
+  packageName: Giant Animations
+  packageVersion: 1.1
+  assetPath: Assets/Kevin Iglesias/Giant Animations/AnimatorControllers/Giant@Stun.controller
+  uploadId: 644586

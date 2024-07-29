@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9f75dbf222c75cd42855a779e5c6c578
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215414
+  packageName: Giant Animations
+  packageVersion: 
+  assetPath: Assets/Kevin Iglesias/Characters/Humanoid Giant/Demo Scene/Scripts/ThrowRockScript.cs
+  uploadId: 0
