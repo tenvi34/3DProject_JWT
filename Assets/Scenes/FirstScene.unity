@@ -5122,10 +5122,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainPlayer
       objectReference: {fileID: 0}
-    - target: {fileID: 2668936624414862896, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
+    - target: {fileID: 4414938333994141577, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
+      propertyPath: hpUI
+      value: 
+      objectReference: {fileID: 770760941}
     - target: {fileID: 5783801092357935878, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
       propertyPath: m_LocalPosition.x
       value: 66.513
@@ -5169,10 +5169,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 697299029052259823, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1274090928}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
 --- !u!1 &906551964
 GameObject:
@@ -7380,25 +7377,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7178513409193113795, guid: cc43ed905f6a9d24a86d3eb531265e85, type: 3}
---- !u!1 &1274090921 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 697299029052259823, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
+--- !u!114 &1274090928 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4414938333994141577, guid: 44e6dc7b7d4fa42498fabf068e15d199, type: 3}
   m_PrefabInstance: {fileID: 905310792}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1274090928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1274090921}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b4cea75e92cfa64eb773fc92d9e7a00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hpUI: {fileID: 770760941}
-  maxHp: 100
 --- !u!1001 &1278980860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12691,6 +12680,18 @@ PrefabInstance:
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5423021783550219153, guid: 776afb3c8ececfd498dbd82bd05ac07b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423021783550219153, guid: 776afb3c8ececfd498dbd82bd05ac07b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423021783550219153, guid: 776afb3c8ececfd498dbd82bd05ac07b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423021783550219153, guid: 776afb3c8ececfd498dbd82bd05ac07b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -12720,11 +12721,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5423021783550219153, guid: 776afb3c8ececfd498dbd82bd05ac07b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 752
+      value: 812
       objectReference: {fileID: 0}
     - target: {fileID: 5423021783550219153, guid: 776afb3c8ececfd498dbd82bd05ac07b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -338
+      value: -403
       objectReference: {fileID: 0}
     - target: {fileID: 5423021783550219153, guid: 776afb3c8ececfd498dbd82bd05ac07b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

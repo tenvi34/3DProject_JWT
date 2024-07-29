@@ -63,7 +63,7 @@ public class WeaponManager : MonoBehaviour
             _currentWeapon.transform.localRotation = Quaternion.identity;
 
             // 위치와 회전 조정 (필요에 따라 수정 가능)
-            _currentWeapon.transform.localPosition = new Vector3(0, 0.15f, 0);
+            _currentWeapon.transform.localPosition = new Vector3(0, 0.1f, 0);
             _currentWeapon.transform.localRotation = Quaternion.Euler(-180, -30, -100);
 
             // Rigidbody 설정
