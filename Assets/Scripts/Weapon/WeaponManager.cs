@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class WeaponManager : MonoBehaviour
@@ -75,11 +72,11 @@ public class WeaponManager : MonoBehaviour
             }
 
             // Collider 비활성화
-            Collider weaponCollider = _currentWeapon.GetComponent<Collider>();
-            if (weaponCollider != null)
-            {
-                weaponCollider.enabled = false;
-            }
+            // Collider weaponCollider = _currentWeapon.GetComponent<Collider>();
+            // if (weaponCollider != null)
+            // {
+            //     weaponCollider.enabled = false;
+            // }
 
             if (_animator != null)
             {

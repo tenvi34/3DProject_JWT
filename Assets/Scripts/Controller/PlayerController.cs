@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class PlayerController : MonoBehaviour
 {
@@ -41,6 +38,11 @@ public class PlayerController : MonoBehaviour
 
     // HP System
     private HealthSystem _healthSystem;
+
+    // 공격 관련 설정
+    [SerializeField] private CapsuleCollider swordCollider;
+    [SerializeField] private int attackDamage = 10;
+    [SerializeField] private LayerMask enemyLayer;
 
     void Awake()
     {
@@ -131,7 +133,6 @@ public class PlayerController : MonoBehaviour
             {
                 isJump = false;
             }
-
         }
 
         // 점프
@@ -201,6 +202,29 @@ public class PlayerController : MonoBehaviour
     public void AttackFinish()
     {
         isAttack = false;
+    }
+
+    public void DealDamage()
+    {
+        // 공격 범위 안에 적 감지
+        Collider[] hitEnemies = Physics.OverlapCapsule(
+            swordCollider.bounds.center - swordCollider.transform.up * swordCollider.height / 2,
+            swordCollider.bounds.center + swordCollider.transform.up * swordCollider.height / 2,
+            swordCollider.radius, enemyLayer);
+
+        foreach (Collider enemy in hitEnemies)
+        {
+            enemy.GetComponent<HealthSystem>()?.TakeDamage(attackDamage);
+        }
+    }
+
+    // 시야 범위 표시 디버그
+    private void OnDrawGizmosSelected()
+    {
+        if (swordCollider == null) return;
+
+        Gizmos.DrawWireSphere(swordCollider.bounds.center - swordCollider.transform.up * swordCollider.height / 2, swordCollider.radius);
+        Gizmos.DrawWireSphere(swordCollider.bounds.center + swordCollider.transform.up * swordCollider.height / 2, swordCollider.radius);
     }
 
     // 무기 든 상태에서의 Idle로 변경
