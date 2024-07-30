@@ -37,7 +37,7 @@ public class HealthSystem : MonoBehaviour
 
         if (_currentHp <= 0)
         {
-            Die();
+            PlayerDie();
         }
     }
 
@@ -50,7 +50,7 @@ public class HealthSystem : MonoBehaviour
         UpdateHpUI();
     }
 
-    private void Die()
+    private void PlayerDie()
     {
         isDead = true;
         if (animator != null)
@@ -59,6 +59,17 @@ public class HealthSystem : MonoBehaviour
         }
         Debug.Log("플레이어 사망");
         // 아래에 게임 오버 화면 만들기
+    }
+    
+    private void GolemDie()
+    {
+        isDead = true;
+        if (animator != null)
+        {
+            animator.SetTrigger(IsDead);
+        }
+        Debug.Log("골렘 처치");
+        // 아래에 골렘 소멸 기능 만들기
     }
     
 }
