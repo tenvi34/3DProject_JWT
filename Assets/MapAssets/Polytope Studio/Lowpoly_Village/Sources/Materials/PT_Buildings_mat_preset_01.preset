@@ -1,0 +1,955 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PT_Buildings_mat_preset_01
+  m_TargetType:
+    m_NativeTypeID: 21
+    m_ManagedTypePPtr: {fileID: 0}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Shader
+    value: 
+    objectReference: {fileID: 4800000, guid: 255b400e6b8ac644588946664da1ff3f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_ValidKeywords.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_InvalidKeywords.Array.size
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_InvalidKeywords.Array.data[0]
+    value: _GRADIENT_ON
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_InvalidKeywords.Array.data[1]
+    value: _LOCALWORLDSPACE_ON
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_InvalidKeywords.Array.data[2]
+    value: _METALICON_ON
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_InvalidKeywords.Array.data[3]
+    value: _METALLICON_ON
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_InvalidKeywords.Array.data[4]
+    value: _ONOFF_ON
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_InvalidKeywords.Array.data[5]
+    value: _SMOOTHNESSON_ON
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_InvalidKeywords.Array.data[6]
+    value: _SNOW_ON
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_InvalidKeywords.Array.data[7]
+    value: _TRANSPARENCY_SWITCH_ON
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_InvalidKeywords.Array.data[8]
+    value: _WORLDOBJECTGRADIENT_ON
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_LightmapFlags
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EnableInstancingVariants
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_DoubleSidedGI
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_CustomRenderQueue
+    value: -1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: stringTagMap.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: disabledShaderPasses.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.size
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[0].first
+    value: _Coarofarmstexture
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[0].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[0].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[0].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[0].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[0].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[1].first
+    value: _Exteriorwallstexture
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[1].second.m_Texture
+    value: 
+    objectReference: {fileID: 2800000, guid: f4eb315dde56f204bb13b39760d2f3b1, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[1].second.m_Scale.x
+    value: 7.32
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[1].second.m_Scale.y
+    value: -2.14
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[1].second.m_Offset.x
+    value: 0.17
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[1].second.m_Offset.y
+    value: 0.35
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[2].first
+    value: _Interiorwallstexture
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[2].second.m_Texture
+    value: 
+    objectReference: {fileID: 2800000, guid: f4eb315dde56f204bb13b39760d2f3b1, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[2].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[2].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[2].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[2].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[3].first
+    value: _TextureSample2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[3].second.m_Texture
+    value: 
+    objectReference: {fileID: 2800000, guid: 34892be16c52f1948b4b5666052d6bf5, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[3].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[3].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[3].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[3].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[4].first
+    value: _TextureSample9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[4].second.m_Texture
+    value: 
+    objectReference: {fileID: 2800000, guid: c91055552562c3941a1c318e8d5bc5c5, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[4].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[4].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[4].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[4].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[5].first
+    value: _texcoord
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[5].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[5].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[5].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[5].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[5].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[6].first
+    value: _texcoord2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[6].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[6].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[6].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[6].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[6].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Ints.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.size
+    value: 25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[0].first
+    value: _Ceramic1smoothness
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[0].second
+    value: 0.24
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[1].first
+    value: _Ceramic2smoothness
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[1].second
+    value: 0.247
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[2].first
+    value: _Ceramic3smoothness
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[2].second
+    value: 0.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[3].first
+    value: _ExteriortextureOnOff
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[3].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[4].first
+    value: _Exteriorwallstiling
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[4].second
+    value: 0.133
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[5].first
+    value: _Float3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[5].second
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[6].first
+    value: _Float4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[6].second
+    value: 0.05
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[7].first
+    value: _Gradient
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[7].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[8].first
+    value: _Gradientposition
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[8].second
+    value: 0.062
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[9].first
+    value: _Gradientpower
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[9].second
+    value: 4.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[10].first
+    value: _InteriortextureOnOff
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[10].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[11].first
+    value: _Interiorwallstiling
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[11].second
+    value: 0.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[12].first
+    value: _Keyword0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[12].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[13].first
+    value: _Metal1metallic
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[13].second
+    value: 0.553
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[14].first
+    value: _Metal1smootness
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[14].second
+    value: 0.7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[15].first
+    value: _Metal2metallic
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[15].second
+    value: 0.65
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[16].first
+    value: _Metal2smootness
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[16].second
+    value: 0.7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[17].first
+    value: _Metal3metallic
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[17].second
+    value: 0.65
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[18].first
+    value: _Metal3smootness
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[18].second
+    value: 0.7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[19].first
+    value: _MetallicOn
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[19].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[20].first
+    value: _OnOff
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[20].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[21].first
+    value: _SmoothnessOn
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[21].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[22].first
+    value: _Transparency
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[22].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[23].first
+    value: _WorldObjectposition
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[23].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[24].first
+    value: __dirty
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[24].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.size
+    value: 24
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[0].first
+    value: _Ceramictiles1color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[0].second.r
+    value: 0.4716981
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[0].second.g
+    value: 0.07622343
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[0].second.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[0].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[1].first
+    value: _Ceramictiles2color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[1].second.r
+    value: 0.20507877
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[1].second.g
+    value: 0.017641952
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[1].second.b
+    value: 0.015208514
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[1].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[2].first
+    value: _Ceramictiles3color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[2].second.r
+    value: 0.3679245
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[2].second.g
+    value: 0.047693916
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[2].second.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[2].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[3].first
+    value: _Coatofarmscolor
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[3].second.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[3].second.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[3].second.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[3].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[4].first
+    value: _Exteriorwalls1colour
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[4].second.r
+    value: 0.68668544
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[4].second.g
+    value: 0.5647117
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[4].second.b
+    value: 0.30946895
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[4].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[5].first
+    value: _Exteriorwalls2color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[5].second.r
+    value: 0.68668544
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[5].second.g
+    value: 0.5647117
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[5].second.b
+    value: 0.30946895
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[5].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[6].first
+    value: _Exteriorwalls3color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[6].second.r
+    value: 0.68668544
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[6].second.g
+    value: 0.5647117
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[6].second.b
+    value: 0.30946895
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[6].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[7].first
+    value: _Fabric1color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[7].second.r
+    value: 0.5849056
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[7].second.g
+    value: 0.5418971
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[7].second.b
+    value: 0.4331613
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[7].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[8].first
+    value: _Fabric2color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[8].second.r
+    value: 0.3649431
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[8].second.g
+    value: 0.5566038
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[8].second.b
+    value: 0.4386422
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[8].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[9].first
+    value: _Fabric3color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[9].second.r
+    value: 0.5450981
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[9].second.g
+    value: 0.6936808
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[9].second.b
+    value: 0.6980392
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[9].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[10].first
+    value: _Groundcolor
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[10].second.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[10].second.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[10].second.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[10].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[11].first
+    value: _Haycolor
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[11].second.r
+    value: 0.764151
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[11].second.g
+    value: 0.517899
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[11].second.b
+    value: 0.1622019
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[11].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[12].first
+    value: _Interiorwallscolor
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[12].second.r
+    value: 0.507743
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[12].second.g
+    value: 0.64102936
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[12].second.b
+    value: 0.6603774
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[12].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[13].first
+    value: _Metal1color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[13].second.r
+    value: 0.385947
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[13].second.g
+    value: 0.5532268
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[13].second.b
+    value: 0.5566038
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[13].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[14].first
+    value: _Metal2color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[14].second.r
+    value: 1.7633113
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[14].second.g
+    value: 0.5262238
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[14].second.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[14].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[15].first
+    value: _Metal3color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[15].second.r
+    value: 1.584906
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[15].second.g
+    value: 0.8017758
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[15].second.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[15].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[16].first
+    value: _Mortarcolor
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[16].second.r
+    value: 0.6415094
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[16].second.g
+    value: 0.5745595
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[16].second.b
+    value: 0.4629761
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[16].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[17].first
+    value: _Rock1color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[17].second.r
+    value: 0.28653434
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[17].second.g
+    value: 0.4245728
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[17].second.b
+    value: 0.4433962
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[17].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[18].first
+    value: _Rock2color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[18].second.r
+    value: 0.20122819
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[18].second.g
+    value: 0.28300953
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[18].second.b
+    value: 0.3207547
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[18].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[19].first
+    value: _Ropecolor
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[19].second.r
+    value: 0.6037736
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[19].second.g
+    value: 0.5810711
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[19].second.b
+    value: 0.3389106
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[19].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[20].first
+    value: _Topcolor
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[20].second.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[20].second.g
+    value: 0.98013073
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[20].second.b
+    value: 0.9386792
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[20].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[21].first
+    value: _Wood1color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[21].second.r
+    value: 0.4056604
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[21].second.g
+    value: 0.2683544
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[21].second.b
+    value: 0.135858
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[21].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[22].first
+    value: _Wood2color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[22].second.r
+    value: 0.24528301
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[22].second.g
+    value: 0.10263903
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[22].second.b
+    value: 0.059006754
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[22].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[23].first
+    value: _Wood3color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[23].second.r
+    value: 0.2735849
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[23].second.g
+    value: 0.1579125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[23].second.b
+    value: 0.04774831
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[23].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_BuildTextureStacks.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

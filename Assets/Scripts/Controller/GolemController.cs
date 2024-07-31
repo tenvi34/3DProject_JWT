@@ -44,7 +44,7 @@ public class GolemController : MonoBehaviour
         // 골렘의 시야 범위 안에 플레이어가 들어오면
         if (distance <= lookRadius)
         {
-            _agent.SetDestination(_target.position); // 플레이어한테로 이동
+            _agent.SetDestination(_target.position); // 플레이어 추적
 
             // 공격 범위 안에 들어오면
             if (distance <= attackRange)
@@ -69,11 +69,12 @@ public class GolemController : MonoBehaviour
     void Attack()
     {
         _animator.SetInteger(AttackIndex, Random.Range(0, 3));
-        _animator.SetTrigger(IsAttack); // 트리거로 설정하여 즉시 애니메이션 시작
+        _animator.SetTrigger(IsAttack);
         _animator.SetBool(IsWalk, false);
-        _agent.isStopped = true; // 에이전트를 일시 중지하여 공격 애니메이션이 실행되도록 함
+        _agent.isStopped = true; // 플레이어 추적을 멈추고 공격 시작
     }
     
+    // 공격 애니메이션 클립에서 끝나는 지점에 연결하기
     public void AttackFinish()
     {
         _agent.isStopped = false;
@@ -83,7 +84,7 @@ public class GolemController : MonoBehaviour
         leftArmCollider.enabled = false;
         rightArmCollider.enabled = false;
 
-        // 플레이어를 계속 추적하고 공격할 수 있도록 업데이트 호출
+        // 다시 플레이어 추적
         Update();
     }
 
@@ -133,9 +134,10 @@ public class GolemController : MonoBehaviour
     public void Die()
     {
         _animator.SetBool(IsDead, true);
-        _agent.isStopped = true; // NavMeshAgent 중지
+        _agent.isStopped = true; // 플레이어 추적 정지
 
         // 아래에 골렘 소멸 기능 추가
+        
     }
 
     // 시야 범위 표시 디버그

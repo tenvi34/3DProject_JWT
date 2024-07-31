@@ -1,0 +1,536 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6698071883574523065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6698071883574523066}
+  m_Layer: 0
+  m_Name: PT_Ceilings_Preset_4x2_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6698071883574523066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6698071883574523065}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 9089099050232840422}
+  - {fileID: 9089099050354622616}
+  - {fileID: 9089099049990098652}
+  - {fileID: 9089099051352648931}
+  - {fileID: 9089099051897676391}
+  - {fileID: 9089099050625307282}
+  - {fileID: 9089099051139173495}
+  - {fileID: 9089099051480865194}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6698071882118990364
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6698071883574523066}
+    m_Modifications:
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.98756
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0072939396
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998679513731873861, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_Name
+      value: PT_Modular_Ceiling_Timber_03 (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+--- !u!4 &9089099051352648931 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+  m_PrefabInstance: {fileID: 6698071882118990364}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6698071882408094344
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6698071883574523066}
+    m_Modifications:
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.0124402
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.9927058
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998679513731873861, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_Name
+      value: PT_Modular_Ceiling_Timber_03 (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+--- !u!4 &9089099051139173495 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+  m_PrefabInstance: {fileID: 6698071882408094344}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6698071882647307416
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6698071883574523066}
+    m_Modifications:
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.9875605
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.9927077
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998679513731873861, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_Name
+      value: PT_Modular_Ceiling_Timber_03 (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+--- !u!4 &9089099051897676391 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+  m_PrefabInstance: {fileID: 6698071882647307416}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6698071882732781397
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6698071883574523066}
+    m_Modifications:
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.0124397
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.9927056
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998679513731873861, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_Name
+      value: PT_Modular_Ceiling_Timber_03 (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+--- !u!4 &9089099051480865194 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+  m_PrefabInstance: {fileID: 6698071882732781397}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6698071883112441369
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6698071883574523066}
+    m_Modifications:
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.01244
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0072956085
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998679513731873861, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_Name
+      value: PT_Modular_Ceiling_Timber_03
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+--- !u!4 &9089099050232840422 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+  m_PrefabInstance: {fileID: 6698071883112441369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6698071883407616035
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6698071883574523066}
+    m_Modifications:
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.012440458
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0072944164
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998679513731873861, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_Name
+      value: PT_Modular_Ceiling_Timber_03 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+--- !u!4 &9089099049990098652 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+  m_PrefabInstance: {fileID: 6698071883407616035}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6698071883521619053
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6698071883574523066}
+    m_Modifications:
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.012439251
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.9927077
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998679513731873861, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_Name
+      value: PT_Modular_Ceiling_Timber_03 (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+--- !u!4 &9089099050625307282 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+  m_PrefabInstance: {fileID: 6698071883521619053}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6698071883787576935
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6698071883574523066}
+    m_Modifications:
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.0124397
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.007294655
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998679513731873861, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+      propertyPath: m_Name
+      value: PT_Modular_Ceiling_Timber_03 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+--- !u!4 &9089099050354622616 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2510373671806887679, guid: f0df579b49bd2da42b0130c756ca5ead, type: 3}
+  m_PrefabInstance: {fileID: 6698071883787576935}
+  m_PrefabAsset: {fileID: 0}
