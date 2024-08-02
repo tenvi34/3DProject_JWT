@@ -9,7 +9,7 @@ namespace Polytope
 {
     public class PT_Door_Control : MonoBehaviour
     {
-        [SerializeField] private Text text;
+        //[SerializeField] private Text text;
         [SerializeField] private string playerTag = "Player";
         private Animator animator;
 
@@ -25,7 +25,7 @@ namespace Polytope
             if (isPlayerNextToDoor)
             {
                 bool isDoorOpen = animator.GetBool("Open");
-                text.text = isDoorOpen ? "Press E to close the door" : "Press E to open the door";
+                //text.text = isDoorOpen ? "Press E to close the door" : "Press E to open the door";
 
                 if (Input.GetKeyDown(KeyCode.E))
                 {
@@ -53,7 +53,7 @@ namespace Polytope
             {
 #if ENABLE_LEGACY_INPUT_MANAGER
                 isPlayerNextToDoor = false;
-                text.text = string.Empty;
+                //text.text = string.Empty;
 #else
                 animator.SetBool("Open", false);
 #endif

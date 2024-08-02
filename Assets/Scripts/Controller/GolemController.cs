@@ -10,11 +10,16 @@ public class GolemController : MonoBehaviour
     public float attackRange = 2f; // 공격 범위
     public float attackCoolTime = 1f; // 쿨타임
     public float attackDamage = 10f; // 공격 데미지
+    public float stompRange = 5f; // 충격파 범위
+    public float stompDamage = 20f; // 충격파 데미지
+    public GameObject stompEffectPrefab;
 
     private Transform _target; // 플레이어 위치
     private NavMeshAgent _agent; // NavMeshAgent 컴포넌트
     private Animator _animator;
-    //private HealthSystem _playerHealthSystem;
+
+    // public GameObject attackEffectPrefab;
+    // public Transform effectPosition;
 
     private float _lastAttackTime;
     private static readonly int IsWalk = Animator.StringToHash("Walk");
@@ -126,6 +131,24 @@ public class GolemController : MonoBehaviour
         RightArmAttack();
     }
 
+    // 충격파 공격
+    public void StompAttack()
+    {
+        Debug.Log("충격파 공격 감지");
+        
+        Vector3 effectPosition = transform.position + transform.forward * stompRange / 2;
+        Quaternion effectRotation = Quaternion.LookRotation(transform.forward);
+        
+        GameObject stompEffect = Instantiate(stompEffectPrefab, effectPosition, effectRotation);
+        StompEffect effect = stompEffect.GetComponent<StompEffect>();
+
+        if (effect != null)
+        {
+            effect.damage = stompDamage;
+            effect.playerLayer = playerLayer;
+        }
+    }
+
     void ResumeMove()
     {
         _agent.isStopped = false;
@@ -140,7 +163,7 @@ public class GolemController : MonoBehaviour
         
     }
 
-    // 시야 범위 표시 디버그
+    // 시야 범위 표시 디버그용
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
